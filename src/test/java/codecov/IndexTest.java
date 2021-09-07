@@ -11,6 +11,7 @@ public class IndexTest {
     @Test
     public void testUncoveredIf() {
         assertEquals(false, index.uncovered_if(true));
+        assertEquals(true, index.uncovered_if(false));
     }
 
     @Test
