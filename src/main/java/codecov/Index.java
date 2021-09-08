@@ -9,6 +9,8 @@ public class Index {
     }   
 
     public boolean fully_covered() {
+        // add non-sense line
+        uncovered();
         return true;
     }
 
