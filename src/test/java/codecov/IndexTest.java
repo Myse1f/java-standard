@@ -21,6 +21,6 @@ public class IndexTest {
     
     @Test 
     public void alwaysFail() {
-        assertEquals(true, flase);
+        assertEquals(true, false);
     }
 }
