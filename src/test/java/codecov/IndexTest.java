@@ -18,4 +18,9 @@ public class IndexTest {
     public void TestFullyCovered() {
         assertEquals(true, index.fully_covered());
     }
+    
+    @Test 
+    public void alwaysFail() {
+        assertEquals(true, false);
+    }
 }
